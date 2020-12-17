@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+
+.header-component {
+  display: flex;
+  justify-content: space-around;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-links {
+  display: flex;
+  width: 25vw;
+  align-items: center;
+  justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.home-component {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.profile-photo {
+  border-radius: 50%;
+  width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+.work-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.work-component h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+
+.work-and-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.apple-logo {
+  width: 350px;
+  height: 350px;
+}
+
+
+
+
+
+.connect-component{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-links{
+  display: flex;
+  width: 25vw;
+  align-items: center;
+  justify-content: space-around;
 }
