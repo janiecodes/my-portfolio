@@ -9,7 +9,7 @@ import Resume from './Components/Resume';
 export default (
     <Switch>
         <Route path='/work' component={Work}/>
-        <Route path='/home' component={Home}/>
+        <Route exact path='/' component={Home}/>
         <Route path='/connect' component={Connect}/>
         <Route path='/resume' component={Resume}/>
     </Switch>
