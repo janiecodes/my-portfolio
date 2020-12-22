@@ -5,7 +5,10 @@ export default function Header(){
 
     return (
         <div className='header-component'>
-            
+            <div className='header-name'>
+                <h1>JANIE KIM</h1>
+                
+            </div>
 
             <nav className='header-links'>
                 <Link to='/' className='home-link'>Home</Link>
@@ -13,9 +16,7 @@ export default function Header(){
                 <Link to='/work' className='work-link'>Work</Link>
                 <Link to='/connect' className='connect-link'>Connect</Link>
             </nav>
-            <div className='header-name'>
-                <h1>JANIE KIM</h1>
-            </div>
+
             
         </div>
     )

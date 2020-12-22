@@ -13,8 +13,8 @@ export default function Work(){
             </div>
 
             <div className='group-project'>
-                <h2>Devmountain Group Project</h2>
-                <img alt='apple-logo' className='apple-logo' src={`/assets/devmtn-logo.png`}/>
+                <h2>Social Media Website: DevBook</h2>
+                <img alt='apple-logo' className='apple-logo' src={`/assets/devbook-logo.png`}/>
             </div>
             
             </div>

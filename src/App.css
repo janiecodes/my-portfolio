@@ -1,7 +1,17 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .header-component {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: tan;
+  padding: 10px;
 
 }
 
@@ -10,8 +20,29 @@
   width: 25vw;
   align-items: center;
   justify-content: space-around;
+  
 }
 
+.home-link {
+  text-decoration: none;
+  color: black;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.work-link {
+  text-decoration: none;
+  color: black;
+}
+
+.connect-link {
+  text-decoration: none;
+  color: black;
+}
 
 
 .home-component {
@@ -19,21 +50,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  width: 50vw;
 }
 
 
 .profile-photo {
   border-radius: 50%;
   width: 200px;
+  padding: 25px;
 }
-
-
-
 
 .work-component {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 
 
 }
@@ -49,6 +81,7 @@
 .work-and-projects {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 
