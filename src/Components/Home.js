@@ -1,13 +1,19 @@
 
 import React from 'react';
+
+
+
+
 export default function Home(){
+
+
 
     return (
         <div className='home-component'>
 
             <img alt='janie-kim' className='profile-photo' src={`/assets/profile-photo.jpeg`}/>
             <p>
-                Hello! I'm Janie Kim. I'm a full-stack web developer from Dallas, Texas.
+                Hello! I'm Janie Kim. I'm a full-stack web developer.
             </p>
             <br></br>
             <p>
@@ -22,6 +28,7 @@ export default function Home(){
             <p>
                 Thanks for visiting my site!
             </p>
+
 
         </div>
     )
