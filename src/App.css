@@ -44,6 +44,10 @@ body {
   color: black;
 }
 
+.connect-links {
+  height: 60px;
+}
+
 
 .home-component {
   display: flex;

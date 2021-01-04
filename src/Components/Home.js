@@ -18,7 +18,7 @@ export default function Home(){
             <br></br>
             <p>
                 I graduated from The University of Texas at Austin, where I studied Marketing at the McComb's School of Business. 
-                Currently, I'm at Devmountain pursuing my dreams to becoming a Software Developer.
+                Currently, I'm at Devmountain pursuing my dreams in becoming a Software Developer.
             </p>
             <br></br>
             <p>
