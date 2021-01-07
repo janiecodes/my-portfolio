@@ -14,7 +14,7 @@ export default function Work(){
 
             <div className='group-project'>
                 <h2>Social Media Website: DevBook</h2>
-                <img alt='apple-logo' className='apple-logo' src={`/assets/devbook-logo.png`}/>
+                <a href='http://devbook.network/'><img alt='apple-logo' className='apple-logo' src={`/assets/devbook-logo.png`}/></a>
             </div>
             
             </div>

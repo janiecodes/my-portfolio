@@ -12,7 +12,7 @@ export default function Header(){
 
             <nav className='header-links'>
                 <Link to='/' className='home-link'>Home</Link>
-                <Link to='/resume' className='resume-link'>Resume</Link>
+                {/* <Link to='/resume' className='resume-link'>Resume</Link> */}
                 <Link to='/work' className='work-link'>Work</Link>
                 <Link to='/connect' className='connect-link'>Connect</Link>
             </nav>
